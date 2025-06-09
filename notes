@@ -1,0 +1,2 @@
+nasm -f elf64 bignum_mul128.s -o bignum_mul128.o
+gcc karatsuba.c bignum_mul128.o -o karatsuba_test
